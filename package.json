@@ -4,8 +4,7 @@
   "description": "Starter point for a graphQL course",
   "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+    "type": "git"
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client"
@@ -13,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "*",
+    "apollo-cache-inmemory": "^1.2.6",
     "apollo-client": "^0.8.1",
     "axios": "^0.15.3",
     "babel-core": "^6.22.1",
@@ -27,9 +26,11 @@
     "express-graphql": "^0.6.1",
     "express-session": "^1.15.0",
     "graphql": "^0.8.2",
+    "graphql-tag": "^2.9.2",
     "html-webpack-plugin": "^2.26.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.7.8",
+    "nodemon": "*",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "react": "15.4.2",
